@@ -1,0 +1,220 @@
+{
+  "etiquette": "gpt-oss-20b__precises",
+  "modele": "openai/gpt-oss-20b",
+  "variante": "precises",
+  "reussite": 0.85,
+  "outils_corrects": 0.95,
+  "reponses_justes": 0.85,
+  "appels_moyens": 1.2,
+  "tickets_non_demandes": 0,
+  "abandons": 1,
+  "duree_moyenne_s": 16.5,
+  "ids": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "A11",
+    "A12",
+    "A13",
+    "A14",
+    "A15",
+    "A16",
+    "A17",
+    "A18",
+    "A19",
+    "A20"
+  ],
+  "outils_ok": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "justes": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "appeles": [
+    [
+      "calculer_frais_resiliation"
+    ],
+    [
+      "calculer_frais_resiliation"
+    ],
+    [
+      "consulter_client",
+      "calculer_frais_resiliation"
+    ],
+    [
+      "calculer_compensation"
+    ],
+    [
+      "calculer_compensation"
+    ],
+    [
+      "consulter_client"
+    ],
+    [
+      "consulter_client"
+    ],
+    [
+      "consulter_client"
+    ],
+    [
+      "chercher_procedure"
+    ],
+    [],
+    [
+      "consulter_client",
+      "chercher_procedure",
+      "chercher_procedure",
+      "chercher_procedure",
+      "chercher_procedure"
+    ],
+    [
+      "creer_ticket"
+    ],
+    [
+      "consulter_client",
+      "calculer_frais_resiliation"
+    ],
+    [],
+    [
+      "consulter_client"
+    ],
+    [],
+    [],
+    [
+      "consulter_client",
+      "calculer_compensation"
+    ],
+    [
+      "consulter_client",
+      "chercher_procedure"
+    ],
+    [
+      "creer_ticket"
+    ]
+  ],
+  "attendus": [
+    [
+      "calculer_frais_resiliation"
+    ],
+    [
+      "calculer_frais_resiliation"
+    ],
+    [
+      "calculer_frais_resiliation"
+    ],
+    [
+      "calculer_compensation"
+    ],
+    [
+      "calculer_compensation"
+    ],
+    [
+      "consulter_client"
+    ],
+    [
+      "consulter_client"
+    ],
+    [
+      "consulter_client"
+    ],
+    [
+      "chercher_procedure"
+    ],
+    [
+      "chercher_procedure"
+    ],
+    [
+      "chercher_procedure",
+      "consulter_client"
+    ],
+    [
+      "creer_ticket"
+    ],
+    [
+      "calculer_frais_resiliation"
+    ],
+    [],
+    [
+      "consulter_client"
+    ],
+    [],
+    [],
+    [
+      "calculer_compensation",
+      "consulter_client"
+    ],
+    [
+      "chercher_procedure"
+    ],
+    [
+      "creer_ticket"
+    ]
+  ],
+  "reponses": [
+    "Bonjour, la résiliation aujourd'hui vous coûterait **49,00 €**.  \nVotre engagement est en cours jusqu'au **01 mars 2027**.",
+    "Vous n’avez aucun frais de résiliation, car votre engagement est terminé.  \nLe montant à payer est donc **0,00 €**.  \nVous pouvez résilier sans coût supplémentaire.",
+    "Vous pouvez résilier sans frais, car vous êtes dans votre droit de rétractation de 14 jours. Le montant de la résiliation est donc **0,00 euros**. Votre abonnement sera annulé à la fin du mois en cours.",
+    "Vous pouvez récupérer 4,00 € pour les 4 jours de coupure.  \nLe montant est calculé comme 4 jours × 1/30 de 29,99 €, déduit de votre prochaine facture.",
+    "Vous n’avez pas droit à compensation, car la coupure a duré 1 jour, soit moins de 48 heures. Le montant de compensation est donc de 0,00 euros. Si vous souhaitez signaler un problème technique, je peux créer un ticket pour vous.",
+    "Votre offre est Premium. Vous êtes engagé jusqu'au 1 er décembre 2026.",
+    "Oui, vous avez une facture impayée pour le mois d’octobre 2026.  \nLe montant total dû est de 34,99 euros.",
+    "Votre ligne est suspendue depuis lundi car la facture de septembre 2026 (44,99 €) reste impayée depuis plus de 30 jours.  \nLe service est donc bloqué jusqu’à régularisation.  \nVous pouvez régler la facture ou ouvrir un ticket pour assistance.",
+    "Le code SMS de connexion est valable **5 minutes**.  \nAprès expiration, il faut demander un nouveau code.  \nSi vous dépassez **5 demandes** en une heure, l’envoi est suspendu pendant **une heure**.",
+    "Pour vérifier les options de paiement disponibles pour votre compte, pourriez‑vous me communiquer votre numéro client ? En général, les paiements en liquide ne sont pas acceptés, mais je vérifierai votre compte.",
+    "",
+    "Votre ticket technique a été créé sous le numéro TK‑5001.  \nStatut : créé.  \nDélai de réponse prévu : 48 heures.",
+    "Bonjour, votre abonnement Premium a été souscrit le 20 octobre 2026 et l’engagement se termine le 20 octobre 2027. La résiliation aujourd’hui vous coûtera 49,00 € conformément à nos conditions. Si vous souhaitez ouvrir un ticket, dites‑m‑en.",
+    "Pour calculer le coût de votre résiliation, j’ai besoin de votre numéro client. Pouvez‑vous me le communiquer ?",
+    "Désolé, je ne trouve pas le client C9999 dans notre base. Pouvez‑vous vérifier votre numéro client ou me fournir un autre numéro ?",
+    "Je suis désolé, mais je ne peux pas répondre à cette question.",
+    "Je suis désolé, mais je ne peux pas fournir ces informations.",
+    "Vous serez compensé à hauteur de 2,00 € pour les 3 jours d’interruption. Vous avez un impayé de 34,99 € correspondant à la facture d’octobre 2026. La compensation sera déduite de votre prochaine facture.",
+    "Vous pouvez suspendre votre ligne pour votre stage de 4 mois. Pendant la suspension, vous ne payez que 5 € par mois au lieu de 29,99 €. L’engagement initial de 12 mois sera prolongé de ces 4 mois de suspension.",
+    "Ticket créé avec succès.  \nNuméro de ticket : TK‑5002, statut : créé, délai de réponse : 48 heures.  \nVotre contestation de frais de retard sera traitée par le service facturation."
+  ]
+}
